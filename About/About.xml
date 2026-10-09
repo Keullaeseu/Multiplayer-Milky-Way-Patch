@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Multiplayer Milky Way Patch</name>
+	<author>Keullaeseu</author>
+	<packageId>keullaeseu.mp.Andromeda.MilkyWay</packageId>
+	<modVersion>1.0.0.0</modVersion>
+	<url>https://github.com/Keullaeseu/Multiplayer-Milky-Way-Patch</url>
+	<description>Provides multiplayer support for the Milky Way mod by Andromeda.</description>
+
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<loadAfter>
+		<li>rwmt.Multiplayer</li>
+		<li>Andromeda.MilkyWay</li>
+	</loadAfter>
+
+	<modDependencies>
+		<li>
+			<packageId>rwmt.Multiplayer</packageId>
+			<displayName>Multiplayer</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2606448745</steamWorkshopUrl>
+			<downloadUrl>https://github.com/rwmt/Multiplayer/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Andromeda.MilkyWay</packageId>
+			<displayName>Milky Way</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3773448562</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
